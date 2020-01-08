@@ -5,6 +5,7 @@ You will see the migration table will create yourSchema.__MigrationHistory inste
 because you are using for different context for different schema.
 
 ----Commands
+
 Enable-Migrations -ContextTypeName PrimaryContext -MigrationsDirectory Migrations\Primary
 
 Add-Migration -ConfigurationTypeName WebApplication2.Migrations.Primary.Configuration Initial
